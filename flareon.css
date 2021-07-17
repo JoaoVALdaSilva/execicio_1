@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "pixelmon";
+    src: url(upheavtt.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #f3850c;
+}
+.bg{
+    background-color: #302720;
+}
+.color{
+    color: #f2ea33;
+    font-size: 60px;
+}
+.flareon{
+    border-radius: 10%;
+}
+h1{
+    text-align: center;
+    font-family: "pixelmon";
+}
+h3{
+    font-family: "pixelmon";
+    text-align: center;
+}
+h5{
+    font-family: "pixelmon";
+}
+p{
+    font-family: "pixelmon";
+    font-size: larger;
+    text-align: center;
+}
+.ff{
+    font-family: "pixelmon";
+    text-align: center;
+}
+.container{
+    background-color:#f2ea33;
+}
+.imagem{
+    width: 348px;
+    height: 231px;
+}

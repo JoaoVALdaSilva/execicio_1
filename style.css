@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "pixelmon";
+    src: url(upheavtt.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: black;
+}
+.color{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: "pixelmon";
+}
+h3{
+    font-family: "pixelmon";
+}
+h5{
+    font-family: "pixelmon";
+}
+p{
+    font-family: "pixelmon";
+    text-align: center;
+    font-size: large;
+}
+.container{
+    background-color: white;
+}
+.insignia{
+    padding: 20px 60px;
+}
+.efeito {
+    border: none;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.efeito:hover{
+animation: bounce 1s linear;
+}
+@keyframes bounce {
+    20%, 50%, 80%, to{
+        transform: translateY(0);
+    } 
+    40%{
+        transform: translateY(-20px)
+    }
+    70%{
+        transform: translateY(-15px);
+    } 
+    90%{
+        transform: translateY(-4px);
+    }
+}
